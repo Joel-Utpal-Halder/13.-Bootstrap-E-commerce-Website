@@ -19,9 +19,9 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>BS5 E-commerce Web</title>
   </head>
-  <body class="bg-body-secondary">
+  <body style="background-color: #ced4da;">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav style="background-color: #a7acb1;" class="navbar navbar-expand-lg mb-3">
       <div class="container">
         <!-- Removed fluid wrod after container to make space at two sides-->
         <a class="navbar-brand" href="#">
@@ -79,7 +79,7 @@
           >
             <div class="carousel-inner bg-secondary">
               <div class="carousel-item active" data-bs-interval="3000">
-                <div class="d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center justify-content-around">
                   <img
                     src="img/1.Wrist_Watch.jpg"
                     class="d-block w-50 mx-auto"
@@ -97,7 +97,7 @@
                 </div>
               </div>
               <div class="carousel-item" data-bs-interval="3000">
-                <div class="d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center justify-content-around">
                 <img
                   src="img/2.Telescope.jpg"
                   class="d-block w-50 mx-auto"
@@ -115,7 +115,7 @@
               </div>
               </div>
               <div class="carousel-item">
-                <div class="d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center justify-content-around">
                 <img
                   src="img/3.Bi-cycle.jpg"
                   class="d-block w-50 mx-auto"
@@ -161,6 +161,62 @@
         </div>
       </div>
     </div>
+
+<!-- Product Category -->
+<div class="container my-4">
+  <h2 class="text-center">Product Category</h2>
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+    <div class="col">
+      <div class="card bg-secondary shadow">
+        <div class="card-body d-flex align-items-center justify-content-between">
+          <h3 class="text-light">Bi-cycle</h3>
+          <img style="width: 200px;" src="img/cat-bi-cycle.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card bg-secondary shadow">
+        <div class="card-body d-flex align-items-center justify-content-between">
+          <h3 class="text-light">Clothes</h3>
+          <img style="width: 230px" src="img/cat-clothes.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card bg-secondary shadow">
+        <div class="card-body d-flex align-items-center justify-content-between">
+          <h3 class="text-light">Computers</h3>
+          <img style="width: 200px" src="img/cat-computers.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card bg-secondary shadow">
+        <div class="card-body d-flex align-items-center justify-content-between">
+          <h3 class="text-light">Cosmetics</h3>
+          <img style="width: 200px; height: 143px;" src="img/cat-cosmetics.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card bg-secondary shadow">
+        <div class="card-body d-flex align-items-center justify-content-between">
+          <h3 class="text-light">Telescopes</h3>
+          <img style="width: 193px" src="img/cat-telescope.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card bg-secondary shadow">
+        <div class="card-body d-flex align-items-center justify-content-between">
+          <h3 class="text-light">Watches</h3>
+          <img style="width: 190px" src="img/cat-watches.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
     <!-- Bootstrap JS Bundle CDN -->
     <script
