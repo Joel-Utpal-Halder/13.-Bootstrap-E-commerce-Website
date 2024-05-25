@@ -19,12 +19,13 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>BS5 E-commerce Web</title>
   </head>
-  <body>
-    <!-- Navbar Start -->
+  <body class="bg-body-secondary">
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container"> <!-- Removed fluid wrod after container to make space at two sides-->
+      <div class="container">
+        <!-- Removed fluid wrod after container to make space at two sides-->
         <a class="navbar-brand" href="#">
-          <img style="width: 70px;" src="img/Logo-20220102-01.png" alt="Logo">
+          <img style="width: 70px" src="img/Logo-20220102-01.png" alt="Logo" />
         </a>
         <button
           class="navbar-toggler"
@@ -66,17 +67,100 @@
         </div>
       </div>
     </nav>
-    <!-- Navbar End -->
 
-
-
-
-
-
-
-
-
-
+    <!-- Slider -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div
+            id="carouselExampleInterval"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner bg-secondary">
+              <div class="carousel-item active" data-bs-interval="3000">
+                <div class="d-flex align-items-center justify-content-between">
+                  <img
+                    src="img/1.Wrist_Watch.jpg"
+                    class="d-block w-50 mx-auto"
+                    alt="..."
+                  />
+                  <div class="m-4">
+                    <h4 class="">Wrist Watch</h4>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Vitae sequi optio, asperiores praesentium perspiciatis
+                      magni pariatur assumenda possimus quia.
+                    </p>
+                    <button class="btn btn-danger">Order Now</button>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <div class="d-flex align-items-center justify-content-between">
+                <img
+                  src="img/2.Telescope.jpg"
+                  class="d-block w-50 mx-auto"
+                  alt="..."
+                  />
+                  <div  class="m-4">
+                  <h4>Telescope</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Vitae sequi optio, asperiores praesentium perspiciatis magni
+                    pariatur assumenda possimus quia.
+                  </p>
+                  <button class="btn btn-danger">Order Now</button>
+                </div>
+              </div>
+              </div>
+              <div class="carousel-item">
+                <div class="d-flex align-items-center justify-content-between">
+                <img
+                  src="img/3.Bi-cycle.jpg"
+                  class="d-block w-50 mx-auto"
+                  alt="..."
+                />
+                <div class="m-4">
+                  <h4>Bi-cycle</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Vitae sequi optio, asperiores praesentium perspiciatis magni
+                    pariatur assumenda possimus quia.
+                  </p>
+                  <button class="btn btn-danger">Order Now</button>
+                </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Bootstrap JS Bundle CDN -->
     <script
